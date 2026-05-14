@@ -4,13 +4,6 @@ on:
   workflow_dispatch:
     # paths:
 
-env:
-  GODOT_VERSION: 4.5
-  GODOT_CHANNEL: stable
-  PROJECT_NAME: Pxgd
-  WORKING_DIRECTORY: project
-  SDKROOT: iPhoneOS13.0
-
 jobs:
   build:
     permissions:
