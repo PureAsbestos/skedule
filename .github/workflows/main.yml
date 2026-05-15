@@ -32,4 +32,8 @@ jobs:
         #   build_command: # optional, default is npm run build
         #   # Specifies if the action should cache npm dependencies.
         #   caching: # optional
-          
+  deploy:
+    runs-on: ubuntu-slim
+    environment:
+      name: github-pages
+
